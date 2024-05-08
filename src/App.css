@@ -26,7 +26,25 @@ body {
   font-weight: 400;
 }
 
+span {
+  font-family: "Sedan SC", serif;
+  font-size: 1.3em;
+}
+
 .custom {
   max-width: 1600px;
   margin: 0 auto;
+}
+
+.kxa {
+  background-color: #ff6584;
+}
+
+.kxa:hover {
+  background-color: #c45067;
+
+}
+
+.out {
+  outline-color: #ff6584;
 }

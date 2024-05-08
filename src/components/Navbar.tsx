@@ -14,7 +14,7 @@ const Navbar = () => {
     }, []);
 
     const navbarStyle = {
-        backgroundColor: scrollY > 0 ? '#181c32' : 'transparent',
+        backgroundColor: scrollY > 0 ? '#141212' : 'transparent',
         color: scrollY > 0 ? '#ffffff' : '#000000',
         transition: 'background-color 0.3s ease',
     };
@@ -31,9 +31,9 @@ const Navbar = () => {
             </div>
             <div className="icons">
                 <i className="fa-solid fa-bars hidden"></i>
-                <div className='text-lg'>
-                    <label htmlFor="modes">DarkMode:  </label>
-                    <i className="fa-solid fa-circle" style={{ color: "#181c32" }}></i>
+                <div className='p-2 text-lg cursor-pointer'>
+                    <label className='cursor-pointer' htmlFor="modes">DarkMode:</label>
+                    <i className="fa-solid fa-circle cursor-pointer" style={{ color: "#181c32" }}></i>
                 </div>
 
 
